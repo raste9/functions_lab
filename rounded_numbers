@@ -1,0 +1,15 @@
+def rounded_numbers(input_string):
+    numbers = input_string.split()
+
+    rounded_numbers = []
+
+    for num_str in numbers:
+        num = float(num_str)
+        rounded_numbers.append(round(num))
+
+    return rounded_numbers
+
+input_string = input()
+
+rounded = rounded_numbers(input_string)
+print(rounded)
