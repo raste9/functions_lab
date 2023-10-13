@@ -1,0 +1,84 @@
+# ------------------------------------------
+#
+# def add(a, b):
+#     return  a + b
+#
+# def calculator():
+#     operation = input('Enter the operation (+, -, *, /): ')
+#     num1 = float(input('Enter the first number:'))
+#     num2 = float(input('Enter the second number:'))
+#
+#     if operation == '+':
+#         result = add(num1, num2)
+#
+#     print(f'{result:.2f}')
+#
+# calculator()
+#
+# def add(x, y):
+#     return x + y
+#
+#
+# def subtract(x, y):
+#     return x - y
+#
+#
+# def multiply(x, y):
+#     return x * y
+#
+#
+# def divide(x, y):
+#     if y == 0:
+#         return "Не може да се дели на нула!"
+#     else:
+#         return x / y
+#
+#
+# while True:
+#     print("Изберете операция:")
+#     print("1. Събиране")
+#     print("2. Изваждане")
+#     print("3. Умножение")
+#     print("4. Деление")
+#     print("5. Изход")
+#
+#     choice = input("Въведете номера на операцията: ")
+#
+#     if choice == '5':
+#         print("Довиждане!")
+#         break
+#
+#     if choice not in ('1', '2', '3', '4'):
+#         print("Невалиден избор. Моля, изберете отново.")
+#         continue
+#
+#     num1 = float(input("Въведете първото число: "))
+#     num2 = float(input("Въведете второто число: "))
+#
+#     if choice == '1':
+#         print("Резултат: ", add(num1, num2))
+#     elif choice == '2':
+#         print("Резултат: ", subtract(num1, num2))
+#     elif choice == '3':
+#         print("Резултат: ", multiply(num1, num2))
+#     elif choice == '4':
+#         print("Резултат: ", divide(num1, num2))
+#
+#
+# ---------------------------------------------------
+
+# def calculate_result(operator, num1, num2):
+#     if operator == 'multiply':
+#         return num1 * num2
+#     elif operator == 'divide':
+#         return int(num1 / num2)
+#     elif operator == 'add':
+#         return num1 + num2
+#     elif operator == 'subtract':
+#         return num1 - num2
+#
+# operator = input()
+# num1 = int(input())
+# num2 = int(input())
+# result = calculate_result(operator, num1, num2)
+# print(result)
